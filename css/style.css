@@ -1,0 +1,87 @@
+/* ------------------------------------------- */
+/* --------------MOBILE FIRST----------------- */
+/* ------------------------------------------- */
+
+/* --------------GENERAL----------------- */
+
+
+/* --------------HEADER----------------- */
+header {
+    background: lightseagreen;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 5px 2%;
+}
+
+h1{
+    font-size: 26px;
+    margin: 4px auto;
+}
+
+/* --------------NAV----------------- */
+
+/* --------------SECTION----------------- */
+section:nth-of-type(1){
+    background: red;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 4px 2%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+/* --------------ARTICLE----------------- */
+
+article{
+    background: green;
+    padding: 0px 2%;
+}
+
+/* --------------SIDEBAR----------------- */
+
+aside{
+    background: indigo;
+    padding: 0px 2%;
+}
+
+/* --------------FOOTER----------------- */
+
+footer {
+    background: #666666;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 5px 2%;
+}
+
+
+/* ------------------------------------------- */
+/* ------------------TABLET------------------- */
+/* ------------------------------------------- */
+
+@media screen and (min-width: 768px){
+    section:nth-of-type(2){
+        flex-direction: row;
+    }
+}
+
+
+/* ------------------------------------------- */
+/* ------------------DESKTOP------------------- */
+/* ------------------------------------------- */
+
+@media screen and (min-width: 1200px){
+    section:nth-of-type(2){
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
